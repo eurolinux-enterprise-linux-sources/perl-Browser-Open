@@ -1,6 +1,6 @@
 Name:           perl-Browser-Open
 Version:        0.04
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Open a browser in a given URL
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,6 +54,9 @@ RELEASE_TESTING=1 make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.04-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.04-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
